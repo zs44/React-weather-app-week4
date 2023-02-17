@@ -36,7 +36,16 @@ export default function App() {
   let searchForm = (
     <form onSubmit={handleSubmit} className="mt-5 text-center">
       <input type="text" placeholder="Enter city name" onChange={updateCity} />
-      <input type="submit" value="Search" className="btn btn-primary"/>
+      <input type="submit" value="Search" className="btn btn-primary" />
+      <p>
+        <a
+          href="https://github.com/zs44/React-weather-app-week4"
+          className="link-info"
+        >
+          source code
+        </a>{" "}
+        by Zeinab Samadi{" "}
+      </p>
     </form>
   );
   if (form) {
@@ -52,15 +61,7 @@ export default function App() {
             <img src={icon} alt="icon" />
           </li>
         </ul>
-        <p>
-          <a
-            href="https://github.com/zs44/React-weather-app-week4"
-            className="link-info"
-          >
-            source code
-          </a>{" "}
-          by Zeinab Samadi{" "}
-        </p>
+        
       </div>
     );
   } else {
