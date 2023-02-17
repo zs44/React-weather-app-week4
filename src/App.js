@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import axios from "axios";
 export default function App() {
   let [cityName, setCityName] = useState("");
-  let [msg, setMsg] = useState("");
+  
   let [temp, setTemp] = useState(null);
   let [humidity, setHumidity] = useState(null);
   let [speed, setSpeed] = useState(null);
