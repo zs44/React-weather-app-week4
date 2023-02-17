@@ -52,6 +52,15 @@ export default function App() {
             <img src={icon} alt="icon" />
           </li>
         </ul>
+        <p>
+          <a
+            href="https://github.com/zs44/React-weather-app-week4"
+            className="link-info"
+          >
+            source code
+          </a>{" "}
+          by Zeinab Samadi{" "}
+        </p>
       </div>
     );
   } else {
